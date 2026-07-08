@@ -36,11 +36,69 @@ This is an LLM-first skill designed to provide accurate, evidence-based fitness 
 - **Comprehensive**: Covers all aspects of fitness
 - **Vita-integrated**: Designed specifically for the Vita app
 
+## 📦 Installation
+
+### npm (Recommended)
+```bash
+npm install -g fitness-knowledge-skill
+```
+
+### npx (No Installation)
+```bash
+npx fitness-knowledge-skill
+```
+
+### curl (Linux/macOS)
+```bash
+curl -fsSL https://raw.githubusercontent.com/Reaan06/fitness-knowledge/main/install.sh | bash
+```
+
+### Manual Installation
+```bash
+git clone https://github.com/Reaan06/fitness-knowledge.git
+cd fitness-knowledge
+npm install
+npm link
+```
+
+## 🖥️ CLI Usage
+
+After installation, use the `fitness-knowledge` or `fk` command:
+
+```bash
+# Show help
+fitness-knowledge help
+
+# List all modules
+fitness-knowledge list
+
+# Show a specific module
+fitness-knowledge show nutrition
+
+# Search for content
+fitness-knowledge search "protein"
+
+# List all topics
+fitness-knowledge topics
+
+# Get a random fitness tip
+fitness-knowledge random
+
+# Check installation
+fitness-knowledge doctor
+```
+
 ## 📋 Structure
 
 ```
 fitness-knowledge/
 ├── SKILL.md                    # Main skill file
+├── package.json                # npm configuration
+├── index.js                    # Node.js module
+├── bin/
+│   └── fitness-knowledge.js    # CLI executable
+├── install.sh                  # curl installation script
+├── uninstall.sh                # Uninstallation script
 ├── assets/
 │   ├── training-types.md       # All training modalities
 │   ├── nutrition-macros.md     # Nutrition fundamentals

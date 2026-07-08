@@ -1,0 +1,59 @@
+{
+  "name": "fitness-knowledge-skill",
+  "version": "1.0.0",
+  "description": "Complete fitness knowledge base for the Vita app - evidence-based training, nutrition, recovery, and more",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "fitness-knowledge": "./bin/fitness-knowledge.js",
+    "fk": "./bin/fitness-knowledge.js"
+  },
+  "scripts": {
+    "start": "node bin/fitness-knowledge.js",
+    "install-global": "npm install -g .",
+    "uninstall-global": "npm uninstall -g fitness-knowledge-skill",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fitness",
+    "nutrition",
+    "training",
+    "workout",
+    "gym",
+    "health",
+    "wellness",
+    "vita",
+    "exercise",
+    "recovery",
+    "supplements",
+    "periodization"
+  ],
+  "author": "Reaan06",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reaan06/fitness-knowledge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reaan06/fitness-knowledge/issues"
+  },
+  "homepage": "https://github.com/Reaan06/fitness-knowledge#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "assets/",
+    "index.js",
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "install.sh",
+    "uninstall.sh"
+  ],
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}
