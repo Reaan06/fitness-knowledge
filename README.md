@@ -11,46 +11,6 @@ A complete fitness knowledge base covering training, nutrition, recovery, supple
 
 ---
 
-## 🎯 What is This?
-
-This is an **LLM-first skill** designed to provide accurate, evidence-based fitness information. It covers everything from basic exercises to advanced periodization, ensuring users get safe, effective guidance.
-
-### Key Highlights
-
-- ✅ **16 Comprehensive Modules** covering all aspects of fitness
-- ✅ **Evidence-Based** - Scientific research, not bro-science
-- ✅ **Safety-First** - Includes contraindications and warnings
-- ✅ **Progressive** - Progression/regression options for all exercises
-- ✅ **CLI Tool** - Easy to use from command line
-- ✅ **Multiple Installation Methods** - npm, npx, curl, or manual
-- ✅ **App-Agnostic** - Can integrate with any fitness application
-
----
-
-## 📚 What's Inside?
-
-### Core Modules
-
-| Module | Topics Covered | File |
-|--------|----------------|------|
-| 🏋️ **Training Types** | Strength, Cardio, Functional, Plyometrics, Olympic, Calisthenics, CrossFit | `training-types.md` |
-| 🥗 **Nutrition & Macros** | BMR, TDEE, Protein, Carbs, Fats, Micronutrients, Hydration | `nutrition-macros.md` |
-| ⚡ **Sports Nutrition** | Nutrient Timing, Performance Supplements, Weight Management | `sports-nutrition.md` |
-| 💪 **Gym Techniques** | Compound & Isolation Exercises, Form Cues, Common Mistakes | `gym-techniques.md` |
-| 🔄 **Functional Training** | Movement Patterns, Core Stability, Balance, Power | `functional-training.md` |
-| 🏠 **Home Workouts** | Bodyweight, Minimal Equipment, HIIT, Programs | `home-workouts.md` |
-| 📋 **Workout Programs** | Beginner to Advanced, Splits, Periodized Plans | `workout-programs.md` |
-| 😴 **Recovery & Rest** | Sleep, Active Recovery, Deloads, Stress Management | `recovery-rest.md` |
-| 💊 **Supplements** | Evidence-Based Guide, Timing, What Works & What Doesn't | `supplements.md` |
-| 📈 **Periodization** | Linear, Undulating, Block, Training Phases | `periodization.md` |
-| ⚠️ **Common Mistakes** | Training, Nutrition, Recovery, Mindset Errors | `common-mistakes.md` |
-| 🔧 **Equipment Guide** | Free Weights, Machines, Bodyweight, Cardio, Accessories | `equipment-guide.md` |
-| 🩹 **Injury Prevention** | Common Injuries, Prevention Strategies, Rehabilitation | `injury-prevention.md` |
-| 🧠 **Mental Fitness** | Mindset, Motivation, Goal Setting, Visualization | `mental-fitness.md` |
-| 📊 **Tracking Metrics** | What to Track, Tools, Best Practices | `tracking-metrics.md` |
-
----
-
 ## 🚀 Quick Start
 
 ### Installation
@@ -82,6 +42,58 @@ fitness-knowledge list
 # Get a random fitness tip
 fitness-knowledge random
 ```
+
+---
+
+## 🎯 What is This?
+
+This is an **LLM-first skill** designed to provide accurate, evidence-based fitness information. It covers everything from basic exercises to advanced periodization, ensuring users get safe, effective guidance.
+
+### Key Highlights
+
+- ✅ **21 Comprehensive Modules** covering all aspects of fitness
+- ✅ **Evidence-Based** - Scientific research, not bro-science
+- ✅ **Safety-First** - Includes contraindications and warnings
+- ✅ **Progressive** - Progression/regression options for all exercises
+- ✅ **CLI Tool** - Easy to use from command line
+- ✅ **Multiple Installation Methods** - npm, npx, curl, or manual
+- ✅ **App-Agnostic** - Can integrate with any fitness application
+- ✅ **Latest Research** - Updated with 2024-2026 findings
+
+---
+
+## 📚 What's Inside?
+
+### Core Modules (15)
+
+| Module | Topics Covered | File |
+|--------|----------------|------|
+| 🏋️ **Training Types** | Strength, Cardio, Functional, Plyometrics, Olympic, Calisthenics, CrossFit | `training-types.md` |
+| 🥗 **Nutrition & Macros** | BMR, TDEE, Protein, Carbs, Fats, Micronutrients, Hydration | `nutrition-macros.md` |
+| ⚡ **Sports Nutrition** | Nutrient Timing, Performance Supplements, Weight Management | `sports-nutrition.md` |
+| 💪 **Gym Techniques** | Compound & Isolation Exercises, Form Cues, Common Mistakes | `gym-techniques.md` |
+| 🔄 **Functional Training** | Movement Patterns, Core Stability, Balance, Power | `functional-training.md` |
+| 🏠 **Home Workouts** | Bodyweight, Minimal Equipment, HIIT, Programs | `home-workouts.md` |
+| 📋 **Workout Programs** | Beginner to Advanced, Splits, Periodized Plans | `workout-programs.md` |
+| 😴 **Recovery & Rest** | Sleep, Active Recovery, Deloads, Stress Management | `recovery-rest.md` |
+| 💊 **Supplements** | Evidence-Based Guide, Timing, What Works & What Doesn't | `supplements.md` |
+| 📈 **Periodization** | Linear, Undulating, Block, Training Phases | `periodization.md` |
+| ⚠️ **Common Mistakes** | Training, Nutrition, Recovery, Mindset Errors | `common-mistakes.md` |
+| 🔧 **Equipment Guide** | Free Weights, Machines, Bodyweight, Cardio, Accessories | `equipment-guide.md` |
+| 🩹 **Injury Prevention** | Common Injuries, Prevention Strategies, Rehabilitation | `injury-prevention.md` |
+| 🧠 **Mental Fitness** | Mindset, Motivation, Goal Setting, Visualization | `mental-fitness.md` |
+| 📊 **Tracking Metrics** | What to Track, Tools, Best Practices | `tracking-metrics.md` |
+
+### Advanced Modules (6) - NEW in v2.0
+
+| Module | Topics Covered | File |
+|--------|----------------|------|
+| 🥗 **Sports Nutrition Advanced** | Latest Research 2024-2026, Gut Health, Sleep Nutrition | `sports-nutrition-advanced.md` |
+| ⚽ **Sport-Specific Training** | 14+ Sports: Running, Swimming, Cycling, Team Sports, Combat | `sport-specific-training.md` |
+| 🩹 **Injury Prevention Advanced** | Latest Research 2024-2026, Key Findings, Evidence-Based | `injury-prevention-advanced.md` |
+| 🧠 **Mental Fitness Advanced** | Advanced Mental Training, Flow State, Mental Health | `mental-fitness-advanced.md` |
+| 📈 **Fitness Trends 2024-2026** | Emerging Science, Trends, Evidence-Based Insights | `fitness-trends-2024-2026.md` |
+| 🔄 **Exercise Variations** | 200+ Variations with Progressions and Regressions | `exercise-variations.md` |
 
 ---
 
@@ -150,6 +162,17 @@ Psychology of performance:
 - **Goal Setting**: SMART goals framework
 - **Visualization**: Mental rehearsal techniques
 - **Stress Management**: Cortisol, recovery, balance
+
+### ⚽ Sport-Specific Training
+
+Training programs for 14+ sports:
+
+- **Endurance Sports**: Running, Swimming, Cycling, Triathlon
+- **Team Sports**: Soccer, Basketball, Football, Rugby
+- **Combat Sports**: Boxing, MMA, Wrestling, BJJ
+- **Racquet Sports**: Tennis, Badminton, Squash
+- **Strength Sports**: Powerlifting, Olympic Weightlifting, CrossFit
+- **Other**: Gymnastics, Rock Climbing, Rowing
 
 ---
 
@@ -222,18 +245,24 @@ fitness-knowledge/
 │   ├── 📄 training-types.md       # Training modalities
 │   ├── 📄 nutrition-macros.md     # Nutrition fundamentals
 │   ├── 📄 sports-nutrition.md     # Advanced nutrition
+│   ├── 📄 sports-nutrition-advanced.md  # Latest research
 │   ├── 📄 gym-techniques.md       # Exercise techniques
+│   ├── 📄 exercise-variations.md  # 200+ variations
 │   ├── 📄 functional-training.md  # Functional patterns
 │   ├── 📄 home-workouts.md        # Home programs
 │   ├── 📄 workout-programs.md     # Structured programs
+│   ├── 📄 sport-specific-training.md  # 14+ sports
 │   ├── 📄 recovery-rest.md        # Recovery protocols
 │   ├── 📄 supplements.md          # Supplement guide
 │   ├── 📄 periodization.md        # Programming principles
 │   ├── 📄 common-mistakes.md      # Common errors
 │   ├── 📄 equipment-guide.md      # Equipment reference
 │   ├── 📄 injury-prevention.md    # Injury prevention
+│   ├── 📄 injury-prevention-advanced.md  # Latest research
 │   ├── 📄 mental-fitness.md       # Mental aspects
-│   └── 📄 tracking-metrics.md     # Progress tracking
+│   ├── 📄 mental-fitness-advanced.md  # Advanced techniques
+│   ├── 📄 tracking-metrics.md     # Progress tracking
+│   └── 📄 fitness-trends-2024-2026.md  # Emerging trends
 ├── 📁 install.sh                  # curl installer
 └── 📁 uninstall.sh                # Uninstaller
 ```
@@ -284,17 +313,23 @@ fitness-knowledge help
 
 ## 📊 Stats
 
-- 📚 **16 Modules** of comprehensive content
-- 📝 **100KB+** of detailed documentation
+- 📚 **21 Modules** of comprehensive content
+- 📝 **150KB+** of detailed documentation
 - 🏋️ **500+ Exercises** with proper form
 - 🍎 **100+ Nutrition Guidelines**
 - 💊 **50+ Supplement Reviews**
 - 🧠 **Mental Fitness Strategies**
+- ⚽ **14+ Sport-Specific Programs**
 
 ---
 
 ## 🗺️ Roadmap
 
+- [x] Add sport-specific training modules
+- [x] Add advanced injury prevention research
+- [x] Add mental fitness advanced techniques
+- [x] Add fitness trends 2024-2026
+- [x] Add exercise variations database
 - [ ] Add video exercise demonstrations
 - [ ] Create interactive workout builder
 - [ ] Add calorie calculator integration
