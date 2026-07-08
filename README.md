@@ -1,6 +1,6 @@
 # Fitness Knowledge Skill
 
-A comprehensive, evidence-based fitness knowledge base for the Vita app. This skill provides detailed information on training, nutrition, recovery, and all aspects of fitness.
+A comprehensive, evidence-based fitness knowledge base. This skill provides detailed information on training, nutrition, recovery, and all aspects of fitness.
 
 ## 🎯 What is this?
 
@@ -18,7 +18,7 @@ This is an LLM-first skill designed to provide accurate, evidence-based fitness 
 | **Gym Techniques** | All gym exercises with proper form, cues, and common mistakes |
 | **Functional Training** | Movement patterns, core stability, balance, power development |
 | **Home Workouts** | Bodyweight training, minimal equipment, HIIT at home |
-| **Vita Workouts** | App-specific workout types and programs |
+| **Workout Programs** | Structured workout programs for all levels |
 | **Recovery & Rest** | Sleep optimization, active recovery, deload weeks |
 | **Supplements** | Evidence-based supplement guide (what works, what doesn't) |
 | **Periodization** | Programming principles, training phases, periodization types |
@@ -34,13 +34,71 @@ This is an LLM-first skill designed to provide accurate, evidence-based fitness 
 - **Safety-first**: Includes safety considerations and contraindications
 - **Progressive**: Provides progression and regression options for exercises
 - **Comprehensive**: Covers all aspects of fitness
-- **Vita-integrated**: Designed specifically for the Vita app
+- **Versatile**: Can be integrated into any fitness app or system
+
+## 📦 Installation
+
+### npm (Recommended)
+```bash
+npm install -g fitness-knowledge-skill
+```
+
+### npx (No Installation)
+```bash
+npx fitness-knowledge-skill
+```
+
+### curl (Linux/macOS)
+```bash
+curl -fsSL https://raw.githubusercontent.com/Reaan06/fitness-knowledge/main/install.sh | bash
+```
+
+### Manual Installation
+```bash
+git clone https://github.com/Reaan06/fitness-knowledge.git
+cd fitness-knowledge
+npm install
+npm link
+```
+
+## 🖥️ CLI Usage
+
+After installation, use the `fitness-knowledge` or `fk` command:
+
+```bash
+# Show help
+fitness-knowledge help
+
+# List all modules
+fitness-knowledge list
+
+# Show a specific module
+fitness-knowledge show nutrition
+
+# Search for content
+fitness-knowledge search "protein"
+
+# List all topics
+fitness-knowledge topics
+
+# Get a random fitness tip
+fitness-knowledge random
+
+# Check installation
+fitness-knowledge doctor
+```
 
 ## 📋 Structure
 
 ```
 fitness-knowledge/
 ├── SKILL.md                    # Main skill file
+├── package.json                # npm configuration
+├── index.js                    # Node.js module
+├── bin/
+│   └── fitness-knowledge.js    # CLI executable
+├── install.sh                  # curl installation script
+├── uninstall.sh                # Uninstallation script
 ├── assets/
 │   ├── training-types.md       # All training modalities
 │   ├── nutrition-macros.md     # Nutrition fundamentals
@@ -48,7 +106,7 @@ fitness-knowledge/
 │   ├── gym-techniques.md       # Exercise techniques
 │   ├── functional-training.md  # Functional training patterns
 │   ├── home-workouts.md        # Home workout programs
-│   ├── vita-workouts.md        # Vita-specific workouts
+│   ├── workout-programs.md     # Structured workout programs
 │   ├── recovery-rest.md        # Recovery protocols
 │   ├── supplements.md          # Supplement guide
 │   ├── periodization.md        # Programming principles
@@ -70,9 +128,9 @@ fitness-knowledge/
 4. Always include safety considerations
 5. Offer modifications for different fitness levels
 
-### For Vita App Integration
+### For Fitness Apps
 
-This skill is designed to integrate with the Vita fitness app:
+This skill can be integrated into any fitness application:
 - Provides knowledge base for workout recommendations
 - Offers nutrition guidance
 - Supports recovery protocols
@@ -103,7 +161,7 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 - Updated nutrition research
 - Additional exercise variations
 - Improved safety guidelines
-- Better integration with Vita app
+- Better integration with fitness apps
 
 ## 📄 License
 
@@ -113,7 +171,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Scientific research on fitness and nutrition
 - Evidence-based training principles
-- The Vita app community
+- The fitness community
 
 ## 📞 Support
 

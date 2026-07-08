@@ -1,6 +1,6 @@
-# Vita Workouts — App-Specific Guide
+# Workout Programs — App-Specific Guide
 
-## 1. Workout Types in Vita
+## 1. Workout Types
 
 ### Strength Training
 - **Purpose**: Build muscle, increase strength
@@ -26,7 +26,7 @@
 - **Frequency**: Daily
 - **Duration**: 10-20 minutes
 
-## 2. Workout Structure in Vita
+## 2. Workout Structure
 
 ### Warm-up
 - **Duration**: 5-10 minutes
@@ -43,7 +43,7 @@
 - **Content**: Static stretching, foam rolling
 - **Purpose**: Recovery, flexibility
 
-## 3. Exercise Categories in Vita
+## 3. Exercise Categories
 
 ### Compound Movements
 - **Squats**: Lower body foundation
@@ -72,7 +72,7 @@
 - **Jump rope**: Coordination, cardio
 - **Burpees**: Full-body conditioning
 
-## 4. Vita Workout Programs
+## 4. Workout Programs
 
 ### Beginner Programs
 - **Foundation**: Full body, 3 days/week
@@ -94,7 +94,7 @@
 - **Duration**: 12-16 weeks
 - **Exercises**: 8-10 per session
 
-## 5. Vita-Specific Features
+## 5. Key Features
 
 ### Workout Logging
 - **Track**: Sets, reps, weight
@@ -158,7 +158,7 @@
 - **Nature walks**: Mental recovery
 - **Hobbies**: Non-training activities
 
-## 8. Vita App Best Practices
+## 8. Best Practices
 
 ### Consistency
 - **Schedule**: Set regular workout times
@@ -184,7 +184,7 @@
 - **Nutrition**: Adequate protein, carbs
 - **Stress**: Manage effectively
 
-## 9. Common Vita User Mistakes
+## 9. Common Mistakes
 
 ### Mistake 1: No Tracking
 - **Problem**: Can't measure progress
@@ -211,7 +211,7 @@
 - **Solution**: Set realistic goals, track small wins
 - **Rule**: Fitness is a marathon, not sprint
 
-## 10. Vita App Integration Tips
+## 10. Integration Tips
 
 ### Set Clear Goals
 - **Define**: What you want to achieve
@@ -237,7 +237,7 @@
 - **Education**: Learn continuously
 - **Enjoyment**: Find activities you love
 
-## 11. Vita-Specific Workouts
+## 11. Workout Variations
 
 ### Quick Workouts (20-30 minutes)
 - **HIIT**: 20 minutes of intervals
@@ -257,7 +257,7 @@
 - **Lower body**: Quads, hamstrings, glutes
 - **Cardio**: Heart health, endurance
 
-## 12. Vita App Future Features
+## 12. Future Features
 
 ### Potential Additions
 - **AI coaching**: Personalized recommendations
@@ -271,7 +271,7 @@
 - **Reviews**: App store feedback
 - **Support**: Help and guidance
 
-## 13. Vita App Success Stories
+## 13. Success Stories
 
 ### Weight Loss
 - **Goal**: Lose 10kg in 3 months
@@ -293,7 +293,7 @@
 - **Approach**: Consistent training + HIIT
 - **Result**: Achieved goal, training for marathon
 
-## 14. Vita App Community
+## 14. Community
 
 ### Features
 - **Forums**: Discussion, questions
@@ -313,7 +313,7 @@
 - **Learn**: Absorb knowledge
 - **Contribute**: Help community grow
 
-## 15. Vita App Support
+## 15. Support
 
 ### Resources
 - **Help center**: FAQs, guides
@@ -333,7 +333,7 @@
 - **Bug reports**: Issue reporting
 - **Testimonials**: Success stories
 
-## 16. Vita App Conclusion
+## 16. Conclusion
 
 ### Key Takeaways
 - **Consistency**: Regular training
