@@ -1,7 +1,7 @@
 {
   "name": "fitness-knowledge-skill",
   "version": "1.0.0",
-  "description": "Complete fitness knowledge base for the Vita app - evidence-based training, nutrition, recovery, and more",
+  "description": "Complete fitness knowledge base - evidence-based training, nutrition, recovery, and more",
   "main": "index.js",
   "type": "module",
   "bin": {

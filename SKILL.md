@@ -1,6 +1,6 @@
 ---
 name: fitness-knowledge
-description: "Trigger: fitness, workout, exercise, nutrition, macros, calories, training, gym, functional, home workout, recovery, supplements, periodization, injury prevention, mental fitness, tracking metrics. Complete fitness knowledge base for Vita app."
+description: "Trigger: fitness, workout, exercise, nutrition, macros, calories, training, gym, functional, home workout, recovery, supplements, periodization, injury prevention, mental fitness, tracking metrics. Complete fitness knowledge base."
 license: Apache-2.0
 metadata:
   author: "reaan"
@@ -60,7 +60,7 @@ Activate this skill when:
 3. Provide comprehensive, evidence-based information.
 4. Include safety considerations and contraindications.
 5. Offer modifications for different fitness levels.
-6. Suggest how this integrates with the Vita app features.
+6. Suggest how this can be integrated into fitness applications.
 
 ## Output Contract
 
@@ -69,7 +69,7 @@ Return:
 - Safety warnings where applicable
 - Practical, actionable advice
 - References to scientific evidence when relevant
-- Integration points with Vita app features
+- Integration points with fitness applications
 - Progression/regression options for exercises
 
 ## References
@@ -80,7 +80,7 @@ Return:
 - `assets/gym-techniques.md` — All gym exercises with proper form
 - `assets/functional-training.md` — Functional training patterns
 - `assets/home-workouts.md` — Bodyweight and minimal equipment workouts
-- `assets/vita-workouts.md` — Specific workout types in Vita app
+- `assets/workout-programs.md` — Structured workout programs for all levels
 - `assets/recovery-rest.md` — Recovery protocols and sleep optimization
 - `assets/supplements.md` — Evidence-based supplement guide
 - `assets/periodization.md` — Programming and periodization principles

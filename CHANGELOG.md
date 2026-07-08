@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Gym techniques with proper form
 - Functional training patterns
 - Home workouts with minimal equipment
-- Vita-specific workout content
+- Structured workout programs
 - Recovery & rest protocols
 - Evidence-based supplement guide
 - Periodization & programming principles

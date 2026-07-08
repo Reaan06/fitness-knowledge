@@ -1,6 +1,6 @@
 /**
  * Fitness Knowledge Skill
- * Complete fitness knowledge base for the Vita app
+ * Complete fitness knowledge base
  * 
  * This module provides comprehensive, evidence-based fitness information
  * including training, nutrition, recovery, supplements, and more.

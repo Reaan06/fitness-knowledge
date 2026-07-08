@@ -2,7 +2,7 @@
 
 /**
  * Fitness Knowledge Skill CLI
- * Complete fitness knowledge base for the Vita app
+ * Complete fitness knowledge base
  * 
  * Usage:
  *   fitness-knowledge [command] [options]
@@ -93,7 +93,7 @@ function listAssets() {
 function showHelp() {
   printHeader('🏋️ Fitness Knowledge Skill CLI');
   
-  printColored('Complete fitness knowledge base for the Vita app\n', 'dim');
+  printColored('Complete fitness knowledge base\n', 'dim');
   
   printSubHeader('Usage');
   console.log('  fitness-knowledge [command] [options]');
@@ -153,7 +153,7 @@ function listModules() {
     { name: 'gym-techniques', description: 'All gym exercises with proper form' },
     { name: 'functional', description: 'Functional training patterns' },
     { name: 'home-workouts', description: 'Home workout programs' },
-    { name: 'vita-workouts', description: 'Vita-specific workouts' },
+    { name: 'workout-programs', description: 'Structured workout programs' },
     { name: 'recovery', description: 'Recovery protocols' },
     { name: 'supplements', description: 'Evidence-based supplement guide' },
     { name: 'periodization', description: 'Programming principles' },
@@ -270,7 +270,7 @@ function showInfo() {
   console.log('• Safety-first approach');
   console.log('• Progressive/regression options');
   console.log('• Comprehensive coverage');
-  console.log('• Vita app integration');
+  console.log('• Fitness app integration');
   console.log('');
   
   printSubHeader('Modules');
