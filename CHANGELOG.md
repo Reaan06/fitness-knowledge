@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2026-07-08
+
+### Added
+- 5 new modules for personalized fitness
+- Calculators module (BMR, TDEE, macros, performance calculators)
+- Exercise Guides module (detailed exercise descriptions with visual cues)
+- Personalized Programs module (custom training programs based on user assessment)
+- Routine Builder module (interactive routine building workflow)
+- Training Plans module (training plans with reminders and check-ins)
+- Fuzzy search functionality in CLI
+- Multilingual support (English, Spanish, Portuguese)
+- Updated SKILL.md with 25 modules and improved activation
+- Updated README with new modules and features
+- Updated CLI to support 25 modules with fuzzy search
+- Version 3.0.0 release
+
+### Changed
+- Improved CLI search with fuzzy matching
+- Added language support via FK_LANG environment variable
+- Enhanced exercise descriptions with visual cues
+- Added personalized program creation workflow
+- Added interactive routine building process
+- Added training plans with reminders and check-ins
+
 ## [2.0.0] - 2026-07-08
 
 ### Added

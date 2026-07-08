@@ -1,10 +1,10 @@
 ---
 name: fitness-knowledge
-description: "Trigger: fitness, workout, exercise, nutrition, macros, calories, training, gym, functional, home workout, recovery, supplements, periodization, injury prevention, mental fitness, tracking metrics, sport-specific, exercise variations, fitness trends. Complete fitness knowledge base with 21 modules."
+description: "Trigger: fitness, workout, exercise, nutrition, macros, calories, training, gym, functional, home workout, recovery, supplements, periodization, injury prevention, mental fitness, tracking metrics, sport-specific, exercise variations, fitness trends, calculators, personalized programs, routine builder, training plans. Complete fitness knowledge base with 25 modules."
 license: MIT
 metadata:
   author: "reaan"
-  version: "2.0"
+  version: "3.0"
 ---
 
 # Fitness Knowledge Skill
@@ -31,6 +31,12 @@ Activate this skill when:
 - User asks about exercise variations or alternatives
 - User asks about fitness trends or new research
 - User asks about advanced training techniques
+- User asks for calculators (BMR, TDEE, macros)
+- User asks for personalized training programs
+- User wants to build a custom routine
+- User asks for training plans with reminders
+- User wants to calculate their nutritional needs
+- User wants to track their fitness progress
 
 ## Hard Rules
 
@@ -44,34 +50,45 @@ Activate this skill when:
 8. **ALWAYS** mention progression and regression options for exercises.
 9. **ALWAYS** cite scientific sources when available.
 10. **ALWAYS** update information with latest research (2024-2026).
+11. **ALWAYS** use calculators module for personalized recommendations.
+12. **ALWAYS** follow routine-builder workflow for custom programs.
+13. **ALWAYS** set up reminders and check-ins for training plans.
 
 ## Decision Gates
 
 | User Need | Action |
 |-----------|--------|
-| Exercise technique | Load `assets/gym-techniques.md` + `assets/exercise-variations.md` + `assets/common-mistakes.md` |
-| Workout plan | Load `assets/periodization.md` + `assets/workout-programs.md` |
-| Nutrition advice | Load `assets/nutrition-macros.md` + `assets/sports-nutrition.md` + `assets/sports-nutrition-advanced.md` |
+| Exercise technique | Load `assets/gym-techniques.md` + `assets/exercise-variations.md` + `assets/exercise-guides.md` + `assets/common-mistakes.md` |
+| Workout plan | Load `assets/periodization.md` + `assets/workout-programs.md` + `assets/personalized-programs.md` |
+| Nutrition advice | Load `assets/nutrition-macros.md` + `assets/sports-nutrition.md` + `assets/sports-nutrition-advanced.md` + `assets/calculators.md` |
 | Injury question | Load `assets/injury-prevention.md` + `assets/injury-prevention-advanced.md` + recommend professional |
 | Mental fitness | Load `assets/mental-fitness.md` + `assets/mental-fitness-advanced.md` |
-| Tracking progress | Load `assets/tracking-metrics.md` |
+| Tracking progress | Load `assets/tracking-metrics.md` + `assets/training-plans.md` |
 | Equipment question | Load `assets/equipment-guide.md` |
 | Recovery question | Load `assets/recovery-rest.md` |
 | Supplement question | Load `assets/supplements.md` |
 | Sport-specific training | Load `assets/sport-specific-training.md` |
 | Fitness trends | Load `assets/fitness-trends-2024-2026.md` |
-| Exercise variations | Load `assets/exercise-variations.md` |
+| Exercise variations | Load `assets/exercise-variations.md` + `assets/exercise-guides.md` |
+| Calculators | Load `assets/calculators.md` |
+| Personalized programs | Load `assets/personalized-programs.md` + `assets/calculators.md` |
+| Custom routine | Load `assets/routine-builder.md` + `assets/personalized-programs.md` |
+| Training plans | Load `assets/training-plans.md` + `assets/personalized-programs.md` |
 
 ## Execution Steps
 
 1. Identify the user's specific question or need.
 2. Load the relevant asset file(s) based on the decision gates.
-3. Provide comprehensive, evidence-based information.
-4. Include safety considerations and contraindications.
-5. Offer modifications for different fitness levels.
-6. Suggest how this can be integrated into fitness applications.
-7. Cite scientific sources when available.
-8. Update information with latest research findings.
+3. For calculators, use the formulas in `assets/calculators.md`.
+4. For personalized programs, follow the workflow in `assets/personalized-programs.md`.
+5. For custom routines, use the interactive process in `assets/routine-builder.md`.
+6. For training plans, set up reminders and check-ins from `assets/training-plans.md`.
+7. Provide comprehensive, evidence-based information.
+8. Include safety considerations and contraindications.
+9. Offer modifications for different fitness levels.
+10. Suggest how this can be integrated into fitness applications.
+11. Cite scientific sources when available.
+12. Update information with latest research findings.
 
 ## Output Contract
 
@@ -84,6 +101,10 @@ Return:
 - Progression/regression options for exercises
 - Latest research findings (2024-2026)
 - Sport-specific recommendations when applicable
+- Calculator results with explanations
+- Personalized program recommendations
+- Interactive routine building process
+- Training plans with reminders and check-ins
 
 ## References
 
@@ -112,7 +133,15 @@ Return:
 - `assets/fitness-trends-2024-2026.md` — Emerging fitness trends and science
 - `assets/exercise-variations.md` — 200+ exercise variations with progressions
 
+### New Modules (New in v3.0)
+- `assets/calculators.md` — BMR, TDEE, macros, body composition, performance calculators
+- `assets/exercise-guides.md` — Detailed exercise guides with visual cues
+- `assets/personalized-programs.md` — Personalized training programs based on user assessment
+- `assets/routine-builder.md` — Interactive routine building workflow
+- `assets/training-plans.md` — Training plans with reminders and check-ins
+
 ## Version History
 
+- **v3.0** (2026-07-08): Added 5 new modules, fuzzy search, multilingual support
 - **v2.0** (2026-07-08): Added 6 new advanced modules, updated README, expanded CLI
 - **v1.0** (2026-07-08): Initial release with 15 core modules

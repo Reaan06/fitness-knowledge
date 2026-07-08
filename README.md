@@ -51,7 +51,7 @@ This is an **LLM-first skill** designed to provide accurate, evidence-based fitn
 
 ### Key Highlights
 
-- ✅ **21 Comprehensive Modules** covering all aspects of fitness
+- ✅ **25 Comprehensive Modules** covering all aspects of fitness
 - ✅ **Evidence-Based** - Scientific research, not bro-science
 - ✅ **Safety-First** - Includes contraindications and warnings
 - ✅ **Progressive** - Progression/regression options for all exercises
@@ -59,6 +59,12 @@ This is an **LLM-first skill** designed to provide accurate, evidence-based fitn
 - ✅ **Multiple Installation Methods** - npm, npx, curl, or manual
 - ✅ **App-Agnostic** - Can integrate with any fitness application
 - ✅ **Latest Research** - Updated with 2024-2026 findings
+- ✅ **Multilingual** - Support for English, Spanish, Portuguese
+- ✅ **Fuzzy Search** - Better search across all modules
+- ✅ **Calculators** - BMR, TDEE, macros, performance calculators
+- ✅ **Personalized Programs** - Custom training programs
+- ✅ **Interactive Routine Builder** - Build custom routines
+- ✅ **Training Plans** - Plans with reminders and check-ins
 
 ---
 
@@ -94,6 +100,16 @@ This is an **LLM-first skill** designed to provide accurate, evidence-based fitn
 | 🧠 **Mental Fitness Advanced** | Advanced Mental Training, Flow State, Mental Health | `mental-fitness-advanced.md` |
 | 📈 **Fitness Trends 2024-2026** | Emerging Science, Trends, Evidence-Based Insights | `fitness-trends-2024-2026.md` |
 | 🔄 **Exercise Variations** | 200+ Variations with Progressions and Regressions | `exercise-variations.md` |
+
+### New Modules (4) - NEW in v3.0
+
+| Module | Topics Covered | File |
+|--------|----------------|------|
+| 🧮 **Calculators** | BMR, TDEE, Macros, Body Composition, Performance, Hydration | `calculators.md` |
+| 📝 **Exercise Guides** | Detailed Exercise Descriptions with Visual Cues | `exercise-guides.md` |
+| 🎯 **Personalized Programs** | Custom Training Programs Based on User Assessment | `personalized-programs.md` |
+| 🔧 **Routine Builder** | Interactive Routine Building Workflow | `routine-builder.md` |
+| 📅 **Training Plans** | Training Plans with Reminders and Check-Ins | `training-plans.md` |
 
 ---
 
@@ -313,13 +329,16 @@ fitness-knowledge help
 
 ## 📊 Stats
 
-- 📚 **21 Modules** of comprehensive content
-- 📝 **150KB+** of detailed documentation
+- 📚 **25 Modules** of comprehensive content
+- 📝 **200KB+** of detailed documentation
 - 🏋️ **500+ Exercises** with proper form
 - 🍎 **100+ Nutrition Guidelines**
 - 💊 **50+ Supplement Reviews**
 - 🧠 **Mental Fitness Strategies**
 - ⚽ **14+ Sport-Specific Programs**
+- 🧮 **10+ Calculators** for personalized recommendations
+- 🔧 **Interactive Routine Builder** for custom programs
+- 📅 **Training Plans** with reminders and check-ins
 
 ---
 
