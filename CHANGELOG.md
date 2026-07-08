@@ -5,7 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.0.0] - 2026-07-08
+
+### Added
+- 6 new advanced modules with latest research (2024-2026)
+- Sports Nutrition Advanced (latest research and findings)
+- Sport-Specific Training (14+ sports with programs)
+- Injury Prevention Advanced (latest research 2024-2026)
+- Mental Fitness Advanced (advanced mental training)
+- Fitness Trends 2024-2026 (emerging science)
+- Exercise Variations (200+ variations with progressions)
+- Updated README with badges and better documentation
+- Updated CLI to support 21 modules
+- Version 2.0.0 release
+
+### Changed
+- Updated SKILL.md with new modules and improved activation
+- Updated package.json to version 2.0.0
+- Improved CLI module listing and display
+
+## [1.0.0] - 2026-07-08
 
 ### Added
 - Complete fitness knowledge base with 16 modules

@@ -150,18 +150,24 @@ function listModules() {
     { name: 'training', description: 'Complete guide to all training modalities' },
     { name: 'nutrition', description: 'Calories, macros, carbs, protein, fats' },
     { name: 'sports-nutrition', description: 'Advanced sports nutrition' },
+    { name: 'sports-nutrition-advanced', description: 'Latest sports nutrition research (2024-2026)' },
     { name: 'gym-techniques', description: 'All gym exercises with proper form' },
+    { name: 'exercise-variations', description: '200+ exercise variations with progressions' },
     { name: 'functional', description: 'Functional training patterns' },
     { name: 'home-workouts', description: 'Home workout programs' },
     { name: 'workout-programs', description: 'Structured workout programs' },
+    { name: 'sport-specific', description: 'Training programs for 14+ sports' },
     { name: 'recovery', description: 'Recovery protocols' },
     { name: 'supplements', description: 'Evidence-based supplement guide' },
     { name: 'periodization', description: 'Programming principles' },
     { name: 'common-mistakes', description: 'Common errors and fixes' },
     { name: 'equipment', description: 'Complete equipment reference' },
     { name: 'injury-prevention', description: 'Injury prevention strategies' },
+    { name: 'injury-prevention-advanced', description: 'Latest injury prevention research' },
     { name: 'mental-fitness', description: 'Mindset and psychology' },
-    { name: 'tracking', description: 'Progress tracking guide' }
+    { name: 'mental-fitness-advanced', description: 'Advanced mental training techniques' },
+    { name: 'tracking', description: 'Progress tracking guide' },
+    { name: 'fitness-trends', description: 'Emerging fitness trends (2024-2026)' }
   ];
   
   modules.forEach((mod, index) => {
@@ -181,18 +187,24 @@ function showModule(moduleName) {
     'training': 'training-types.md',
     'nutrition': 'nutrition-macros.md',
     'sports-nutrition': 'sports-nutrition.md',
+    'sports-nutrition-advanced': 'sports-nutrition-advanced.md',
     'gym-techniques': 'gym-techniques.md',
+    'exercise-variations': 'exercise-variations.md',
     'functional': 'functional-training.md',
     'home-workouts': 'home-workouts.md',
-    'vita-workouts': 'vita-workouts.md',
+    'workout-programs': 'workout-programs.md',
+    'sport-specific': 'sport-specific-training.md',
     'recovery': 'recovery-rest.md',
     'supplements': 'supplements.md',
     'periodization': 'periodization.md',
     'common-mistakes': 'common-mistakes.md',
     'equipment': 'equipment-guide.md',
     'injury-prevention': 'injury-prevention.md',
+    'injury-prevention-advanced': 'injury-prevention-advanced.md',
     'mental-fitness': 'mental-fitness.md',
-    'tracking': 'tracking-metrics.md'
+    'mental-fitness-advanced': 'mental-fitness-advanced.md',
+    'tracking': 'tracking-metrics.md',
+    'fitness-trends': 'fitness-trends-2024-2026.md'
   };
   
   const filename = moduleMap[moduleName];
